@@ -1,0 +1,57 @@
+<html>
+
+<kepala>
+
+<title> DIBUKA AJA YA </title>
+
+<jenis skrip="teks/javascript">
+
+bendera=1
+
+fungsi f1()
+
+{ alert(“Terima Kasih Udah Pilih Jawaban YA”)
+
+} fungsi f()
+
+{
+
+jika (bendera==1)
+
+{ Bn.style.top=400 Bn.style.left=300 bendera=2 }
+
+lain jika (bendera == 2)
+
+{ Bn.style.top=400 Bn.style.left=50 bendera=3 }
+
+lain jika(bendera==3)
+
+{ Bn.style.top=370 Bn.style.left=166 bendera=1 }
+
+}
+
+</skrip>
+
+</head>
+
+<tubuh>
+
+<h1> Surat Spesial Dariku <h1>
+
+<img alt="EvilicaCell"
+
+src=”https://res06.noxgroup.com/noxinfluencer/youtube/avatar/fc4d6a2c4953c885ed1adbd2c45a813b.png” height=”200? /> <h1 style=”#”>Apa Kamu Mencintaiku?</h1> <div id= ”Dengan” style="posisi:absolut; kiri:64 piksel; atas:370 piksel; lebar:210px; tinggi:210px;”>
+
+<input type=”button” value=” YA ” onClick=”f1()” />
+
+</div>
+
+<div ID="Bn" style="position:absolute; kiri: 166 piksel; atas:370 piksel; lebar:210px; tinggi:210px;”>
+
+<input type=”button” value=” TIDAK ” onMouseOver=”f()” />
+
+</div>
+
+</tubuh>
+
+</html>
